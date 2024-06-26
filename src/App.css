@@ -1,0 +1,93 @@
+/* Title CSS */
+body{
+  max-width: 1540px; 
+    margin: 0 auto;
+}
+.title-container {
+    background-image: 
+      linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), /* Gradient overlay */
+      url('/src/assets/title-banner.jpg'); /* Background image */
+    background-size: cover; /* Ensure image fills the container */
+    background-position: center;
+    text-align: center;
+    padding: 7rem 0;
+    color: rgb(255, 255, 255);
+    max-width: 1540px; 
+    margin: 0 auto;
+  }
+  
+a{
+    /* text-decoration: none; */
+    color: white;
+}
+a:hover{
+    /* text-decoration: none; */
+    color: rgb(0, 4, 255);
+}
+.title-container h3{
+    font-size: 3.8125rem;
+font-style: normal;
+font-weight: 700;
+}
+.yellow-text{
+    color: #EF4040;
+}
+::selection {
+    background: #EF4040;
+  }
+  .privacy-policy, .sitemap{
+    margin: 5vw;
+    width: 65vw;
+    text-align: justify;
+  }
+  /* OUR CLIENTS CSS */
+.our-clients-slider{
+margin-bottom: 3rem;
+max-width: 1540px; 
+    margin: 0 auto;
+    
+  }
+.wrapper {
+	display: flex;
+	width: 75vw;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 2.5rem;
+
+}
+.item {
+	animation: animate 25s alternate linear infinite;
+}
+.container:hover .item {
+	animation-play-state: paused;
+}
+@keyframes animate {
+	0% {
+		transform: translate3d(0, 0, 0);
+	}
+	100% {
+		transform: translate3d(-1100px, 0, 0);
+	}
+}
+@media (max-width:767px) {
+	.slider-area h2 {
+		font-size: 30px;
+	}
+	.wrapper {
+		width: 95%;
+		border-radius: 0;
+		padding: 0;
+	}
+  .privacy-policy, .sitemap{
+    margin: 5vw;
+    width: 75vw;
+    
+  }
+}
+.item{
+    margin: 0 50px;
+}
+.item img{
+    width: 250px;
+    height: 75px;
+}
