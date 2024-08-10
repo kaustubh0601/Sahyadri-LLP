@@ -1,0 +1,35 @@
+nav{
+  background-color: #000000;
+}
+.item-name:hover{
+  background-color: #EF4040;
+  /* padding: 0.5px; */
+  border-radius: 4px;
+}
+
+.hover-red:hover {
+  background-color: #EF4040;
+  color: rgb(0, 0, 0);
+}
+
+.no-underline {
+  text-decoration: none;
+}
+.x1{
+  font-size: 1rem;
+}
+.x{
+  font-size: 8px;
+  padding-left: 30px;
+}
+.logo-flex{
+  display: flex;
+  align-items: center;
+}
+.logo-name{
+  padding-left: 1rem;
+  line-height: 18px;
+}
+.logo-name span{
+  font-size: 11px;
+}
